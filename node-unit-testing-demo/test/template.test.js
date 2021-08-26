@@ -3,7 +3,7 @@
 //        选择mocha作为测试框架
 //        选择power-assert作为断言库，配合mocha做单元测试，与chai类似
 //        选择nyc做覆盖测试
-//        选择supertest作为客户端代理，向服务发起request请求
+//        选择supertest作为客户端代理，向服务发起request请求，测试HTTP接口
 // 第二步，修改package.json的scripts脚本test命令
 //        "test": "mocha 'test/**/*.test.js' --exit"
 //        使用mocha执行test目录下的所有文件，后缀为.test.js，--exit表示执行完就退出，否则会一直占用服务
